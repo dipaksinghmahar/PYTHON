@@ -3,26 +3,30 @@ WHAT IS PROGRAMMING?
 Just like we use Hindi or English to communicate with each other, we use a
 programming language like Python to communicate with the computer.
 Programming is a way to instruct the computer to perform various tasks.
+
 WHAT IS PYTHON?
 Python is a simple and easy to understand language which feels like reading simple
 English. This Pseudo code nature is easy to learn and understandable by beginners.
+
 FEATURES OF PYTHON
 • Easy to understand = Less development time
 • Free and open source
 • High level language
 • Portable: Works on Linux / Windows / Mac.
 • Fun to work with!
+
 INSTALLATION
 Python can be easily installed from python.org. When you click on the download
 button, python can be installed right after you complete the setup by executing the file
 for your platform.
 
-CHAPTER 1 – MODULES, COMMENTS & PIP
+**CHAPTER 1 – MODULES, COMMENTS & PIP**
 Let’s write our very first python program. Create a file called hello.py and paste the
 below code in it.
 print("hello world") # print is a function (more later)
 Execute this file (.py file) by typing python hello.py and you will see Hello World printed
 on the screen.
+
 MODULES
 A module is a file containing code written by somebody else (usually) which can be
 imported and used in our programs.
@@ -30,6 +34,7 @@ PIP
 Pip is the package manager for python. You can use pip to install a module on your
 system.
 pip install flask # Installs Flask Module
+
 TYPES OF MODULES
 There are two types of modules in Python.
 1. 2. Built in Modules (Preinstalled in Python)
@@ -44,20 +49,21 @@ Comments are used to write something which the programmer does not want to
 execute. This can be used to mark author name, date etc.
 TYPES OF COMMENTS
 There are two types of comments in python.
-7
 1. Single Line Comments: To write a single line comment just add a ‘#’ at the start
 of the line.
 # This is a Single-Line Comment
+
 2. Multiline Comments: To write multi-line comments you can use ‘#’ at each line
 or you can use the multiline string (""" """)
 """This is an amazing
 example of a Multiline
 
-CHAPTER 2 – VARIABLES AND DATATYPE
+**CHAPTER 2 – VARIABLES AND DATATYPE**
 A variable is the name given to a memory location in a program. For example.
 a= 30 # variables = container to store a value.
 b= "harry" # keywords = reserved words in python
 c= 71.22 # identifiers = class/function/variable name
+
 DATA TYPES
 Primarily these are the following data types in Python:
 1. Integers
@@ -69,12 +75,14 @@ Python is a fantastic language that automatically identifies the type of data fo
 a= 71 # identifies a as class <int>
 b=88.44 # identifies b as class <float>
 name= "harry" # identifies name as class <str>
+
 RULES FOR CHOOSING AN IDENTIFIER
 • A variable name can contain alphabets, digits, and underscores.
 • A variable name can only start with an alphabet and underscores.
 • A variable name can’t start with a digit.
 • No while space is allowed to be used inside a variable name.
 Examples of a few variable names are: harry, one8, seven, _seven etc.
+
 OPERATORS IN PYTHON
 Following are some common operators in python:
 1. Arithmetic operators: +, -
@@ -82,7 +90,7 @@ Following are some common operators in python:
 2. Assignment operators: =, +=, -= etc.
 3. Comparison operators: ==, >, >=, <, != etc.
 4. Logical operators: and, or, not.
-10
+   
 TYPE() FUNCTION AND TYPECASTING.
 type() function is used to find the data type of a given variable in python.
 a = 31
