@@ -21,3 +21,4 @@ print(name[-5:-1])
 #slicing the skip value
 x="0123456789"
 print(x[1:8:3]) #1 to 8 with step 3       
+
