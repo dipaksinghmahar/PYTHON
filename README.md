@@ -2,7 +2,7 @@
 
 ## WHAT IS PROGRAMMING?
 
-Just like we use English or Nepali to communicate with each other, we use a programming language like Python to communicate with computers.
+Just like a we use English or Nepali to communicate with each other, we use a programming language like Python to communicate with computers.
 
 Programming is the process of giving instructions to a computer to perform various tasks.
 
