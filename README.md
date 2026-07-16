@@ -429,179 +429,47 @@ mzn
 
 ```python
 word = "amazing"
+word[1: 6: 2] # "mzn"
+Other advanced slicing techniques:
+Word = "amazing"
+Word = [:7] # word [0:7] – 'amazing'
+Word = [0:] # word [0:7] – 'amazing'
+STRING FUNCTIONS
+Some of the commonly used functions to perform operations on or manipulate strings
+are as follows. Let us assume there is a string ‘str’ as follows:
+str = 'harry'
+Now when operated on this string ‘str’, these functions do the following:
+1. len () function – This function returns the length of the strings.
+str = "harry"
+print(len(str)) # Output: 5
+2. String.endswith("rry") – This function_ tells whether the variable string ends with
+the string "rry" or not. If string is "harry", it returns true for "rry" since Harry ends
+with rry.
+str = "harry"
+print(str.endswith("rry")) # Output: True
+3. string.count("c") – counts the total number of occurrences of any character.
+str = "harry"
+count = str.count("r")
+print(count) # Output: 2
+4. the first character of a given string.
+str = "harry"
+capitalized_string = str.capitalize()
+print(capitalized_string) # Output: "Harry"
+5. string.find(word) – This function friends a word and returns the index of first
+occurrence of that word in the string.
+str = "harry"
+14
+index = str.find("rr")
+print(index) # Output: 2
+6. string.replace (old word, new word ) – This function replace the old word with
+new word in the entire string.
+str = "harry"
+replaced_string = str.replace("r", "l")
+print(replaced_string) # Output: "hally"
+ESCAPE SEQUENCE CHARACTERS
+Sequence of characters after backslash "\" → Escape Sequence characters
+Escape Sequence characters comprise of more than one character but represent one
+character when used within the strings.
+15
 
-print(word[:7])
-print(word[0:])
-```
-
-Output:
-
-```text
-amazing
-amazing
-```
-
----
-
-# STRING FUNCTIONS
-
-Assume:
-
-```python
-str = "Dipak"
-```
-
-### 1. len()
-
-Returns the length of the string.
-
-```python
-print(len(str))
-```
-
-Output:
-
-```text
-5
-```
-
----
-
-### 2. endswith()
-
-Checks whether a string ends with a given value.
-
-```python
-print(str.endswith("pak"))
-```
-
-Output:
-
-```text
-True
-```
-
----
-
-### 3. count()
-
-Counts the occurrences of a character.
-
-```python
-print(str.count("p"))
-```
-
-Output:
-
-```text
 1
-```
-
----
-
-### 4. capitalize()
-
-Capitalizes the first character.
-
-```python
-print(str.capitalize())
-```
-
-Output:
-
-```text
-Dipak
-```
-
----
-
-### 5. find()
-
-Returns the index of the first occurrence of a substring.
-
-```python
-print(str.find("pa"))
-```
-
-Output:
-
-```text
-2
-```
-
----
-
-### 6. replace()
-
-Replaces a substring with another substring.
-
-```python
-print(str.replace("p", "b"))
-```
-
-Output:
-
-```text
-Dibak
-```
-
----
-
-# ESCAPE SEQUENCE CHARACTERS
-
-Escape sequence characters begin with a backslash (`\`) and represent special characters.
-
-| Escape Sequence | Meaning      |
-| --------------- | ------------ |
-| \n              | New Line     |
-| \t              | Tab Space    |
-| \               | Backslash    |
-| '               | Single Quote |
-| "               | Double Quote |
-
-Example:
-
-```python
-print("Hello\nWorld")
-```
-
-Output:
-
-```text
-Hello
-World
-```
-
----
-
-# SUMMARY
-
-## Chapter 1
-
-* Introduction to Python
-* Modules
-* PIP
-* Comments
-* Python as a Calculator
-
-## Chapter 2
-
-* Variables
-* Data Types
-* Operators
-* Type Casting
-* Input Function
-
-## Chapter 3
-
-* Strings
-* String Indexing
-* String Slicing
-* String Functions
-* Escape Sequence Characters
-
-
-
-#SUN 21 JUN
-#SAT 11 JUL
-#Sun 12 JUL
