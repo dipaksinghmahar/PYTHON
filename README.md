@@ -471,6 +471,67 @@ Sequence of characters after backslash "\" → Escape Sequence characters
 Escape Sequence characters comprise of more than one character but represent one
 character when used within the strings.
 
+## Tuple Methods in Python
 
+```python
+a = (1, 7, 2)
 
+CHAPTER 4 – LISTS AND TUPLES
+Python lists are containers to store a set of values of any data type.
+### 1. `count()`
+Returns the number of times a specified value appears in the tuple.
+
+```python
+print(a.count(1))
+```
+
+**Output:**
+```python
 1
+```
+
+**Explanation:**
+- `a.count(1)` counts how many times `1` appears in the tuple.
+- Here, `1` appears **1 time**.
+
+---
+
+### 2. `index()`
+Returns the index (position) of the first occurrence of a specified value.
+
+```python
+print(a.index(1))
+```
+
+**Output:**
+```python
+0
+```
+
+**Explanation:**
+- `a.index(1)` returns the index of the first `1`.
+- Since indexing starts from **0**, the result is **0**.
+
+---
+
+### Example
+
+```python
+a = (1, 7, 2, 1)
+
+print(a.count(1))   # 2
+print(a.index(1))   # 0
+```
+
+**Output:**
+```python
+2
+0
+```
+
+**Summary**
+
+| Method | Purpose | Example |
+|--------|---------|---------|
+| `count(x)` | Counts how many times `x` appears | `a.count(1)` |
+| `index(x)` | Returns the first index of `x` | `a.index(1)` |
