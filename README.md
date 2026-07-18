@@ -975,7 +975,6 @@ Yes
 ```
 
 ---
-
 # Summary
 
 | Statement | Purpose |
