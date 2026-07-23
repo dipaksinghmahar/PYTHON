@@ -10,7 +10,6 @@ avg()
 def average():
     pass
 
-
 # argument with function
 # if a function have two argument then we should call two argument
 # When we call a function with arguments without using keywords, they are called positional arguments.
@@ -27,4 +26,3 @@ fruits = my_function()
 print(fruits[0])
 print(fruits[1])
 print(fruits[2])
-
