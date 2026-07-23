@@ -6,6 +6,7 @@ for i in range (1,11):
     print(f"multiplication of the table {i}")
     for j in range (1,11):
         print(f"{i}*{j}={i*j}")
+
         
 # Question 2:
 print("Print the following pattern:")
@@ -17,6 +18,7 @@ print("*****")
 for i in range (1,5):
      print("*"*i)
 
+
 # Question 3:
 print("Print the following pattern:")
 print("*****")
@@ -26,6 +28,7 @@ print("**")
 print("*")
 for i in range(5,0,-1):
     print("*"*i)
+
 
 # Question 4:
 print("Print the following pattern:")
@@ -39,6 +42,7 @@ for i in range(1,6):
         print(j,end="")
     print()
 
+
 # Question 5:
 print("Print the following pattern:")
 print("12345")
@@ -50,6 +54,7 @@ for i in range(1,6):
     for j in range(1,6,-1):
         print(j,end="")
     print("")
+
 
 # Question 6:
 print("Print the following pattern:")
