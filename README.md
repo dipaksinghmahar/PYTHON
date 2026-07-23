@@ -213,7 +213,7 @@ _seven
 Invalid Examples:
 
 ```python
-8dipak
+
 my name
 ```
 
