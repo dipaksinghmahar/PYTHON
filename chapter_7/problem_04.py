@@ -1,5 +1,6 @@
 # Level 3 – Nested Loops
 
+
 # Question 1:
 print("Print the multiplication table from 1 to 10 using nested loops.")
 for i in range (1,11):
@@ -7,7 +8,7 @@ for i in range (1,11):
     for j in range (1,11):
         print(f"{i}*{j}={i*j}")
 
-        
+
 # Question 2:
 print("Print the following pattern:")
 print("*")
@@ -68,6 +69,7 @@ for i in range (1,5):
     for j in range(0,i+1):
         print(b[j],end="")
     print("")
+
 
 
 
