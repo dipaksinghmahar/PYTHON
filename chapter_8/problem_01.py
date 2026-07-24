@@ -6,19 +6,24 @@ def greatest():
         print("a is the greatest number ")
     else:
         print("b is the greatest number")
-#ngreatest()
+greatest()
+
 # Write a python program using function to convert Celsius to Fahrenheit.
 def convert():
     C=int(input("enter the value of celsius :"))
     F = (C *1.8) + 32
     print("The conversion of the celsius to faherenheit value is :",F)
-#convert()
+convert()
+
 # How do you prevent a python print() function to print a new line at the end.
 def function():
     print("Hello ",end="")
     print("bhailog ",end="")
 function()
+
 # Write a recursive function to calculate the sum of first n natural numbers.
+def recursion():
+    
 # Write a python function to print first n lines of the following pattern:
 # ***
 # ** - for n = 3
