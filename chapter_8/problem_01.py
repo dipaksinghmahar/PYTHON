@@ -30,6 +30,7 @@ function()
 # buil in function
 # userdefined function
 
+
 # Write a recursive function to calculate the sum of first n natural numbers.
 def recursion():
 
