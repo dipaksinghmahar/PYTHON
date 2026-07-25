@@ -28,3 +28,10 @@ fruits = my_function()
 print(fruits[0])
 print(fruits[1])
 print(fruits[2])
+
+
+# function with argument
+def argument(name):
+    print("good day "+ name)
+argument("dipak")
+argument("hemant")

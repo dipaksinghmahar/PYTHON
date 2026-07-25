@@ -6,7 +6,11 @@ def greatest():
         print("a is the greatest number ")
     else:
         print("b is the greatest number")
-greatest()
+greatest() #function call
+
+def goodday():
+ print("good day")
+goodday()
 
 # Write a python program using function to convert Celsius to Fahrenheit.
 def convert():
@@ -20,6 +24,10 @@ def function():
     print("Hello ",end="")
     print("bhailog ",end="")
 function()
+
+
+# buil in function
+# userdefined function
 
 # Write a recursive function to calculate the sum of first n natural numbers.
 def recursion():
