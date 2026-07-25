@@ -13,6 +13,7 @@ def average():
 # argument with function
 # if a function have two argument then we should call two argument
 # When we call a function with arguments without using keywords, they are called positional arguments.
+
 def add(fname):         #fname is parameter
     print(fname + "hoina hola")
 add("email")    #email is an argument

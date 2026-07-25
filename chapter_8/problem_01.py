@@ -23,12 +23,5 @@ function()
 
 # Write a recursive function to calculate the sum of first n natural numbers.
 def recursion():
+
     
-# Write a python function to print first n lines of the following pattern:
-# ***
-# ** - for n = 3
-# *
-# Write a python function which converts inches to cms.
-# Write a python function to remove a given word from a list ad strip it at the same
-# time.
-# Write a python function to print multiplication table of a given number.
