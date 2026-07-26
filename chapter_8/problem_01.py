@@ -32,5 +32,10 @@ function()
 
 # Write a recursive function to calculate the sum of first n natural numbers.
 def recursion():
+    a=int(inpt("enter the value of a :"))
+    if a==1 and ==0:
+        print("the vaue is 1 ")
+    else:
+        return n*factorial(a-1)
 
     
