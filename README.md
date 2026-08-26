@@ -984,6 +984,8 @@ Yes
 
 
 
+
+
 |-----------|---------|
 | `if` | Executes code if a condition is True |
 | `elif` | Checks another condition if the previous one is False |
